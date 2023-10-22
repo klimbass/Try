@@ -1,0 +1,286 @@
+body {
+  font-family: 'Helvetica Neue', 'Roboto', 'Verdana', sans-serif;
+  color: #2a2a2a;
+  background-color: #fafafa;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.but-index1 {
+  width: 150px;
+  height: 120px;
+  background-color: blue;
+  border-radius: 5px;
+  color: rgb(222, 207, 236);
+  font-size: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+button:hover {
+  background-color: blueviolet;
+}
+
+.ull {
+  width: 730px;
+}
+.lii1 {
+  width: 160px;
+  height: 200px;
+  background-color: rgb(212, 246, 248);
+  border-radius: 17% 83% 47% 53% / 81% 41% 59% 19%;
+  text-align: left;
+  line-height: 1.2;
+  color: rgb(124, 120, 120);
+  padding: 5px;
+  padding-top: 10px;
+}
+.lii2 {
+  width: 160px;
+  height: 200px;
+  background-color: rgb(212, 246, 248);
+  border-radius: 41% 59% 21% 79% / 60% 24% 76% 40%;
+  text-align: center;
+  line-height: 1.2;
+  color: rgb(124, 120, 120);
+  padding: 5px;
+  padding-top: 10px;
+}
+.lii3 {
+  width: 160px;
+  height: 200px;
+  background-color: rgb(212, 246, 248);
+  border-radius: 41% 59% 21% 79% / 60% 68% 32% 40%;
+  text-align: right;
+  line-height: 1.2;
+  color: rgb(124, 120, 120);
+  padding: 5px;
+  padding-top: 10px;
+}
+.lii4 {
+  width: 160px;
+  height: 200px;
+  background-color: rgb(238, 185, 185);
+  border-radius: 10px;
+  text-align: justify;
+  line-height: 1.2;
+  color: rgb(124, 120, 120);
+  padding: 5px;
+  padding-top: 10px;
+}
+
+.title-lii {
+  text-align: center;
+  color: rgb(85, 83, 83);
+  margin: 0;
+  letter-spacing: 10px;
+  text-shadow: 10px 3px 5px rgb(106, 211, 243);
+}
+
+.ull {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+}
+.section2 {
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgb(204, 201, 201);
+  border-radius: 55% 45% 73% 27% / 47% 37% 63% 53%;
+  background-color: rgba(137, 43, 226, 0.445);
+}
+
+.fugi-li {
+  width: 25px;
+  height: 20px;
+  background-color: #2a2a2a;
+}
+.fugi-li:hover {
+  background-color: aqua;
+}
+
+.body-index2 {
+  background-color: rgb(86, 175, 86);
+  max-width: 100%;
+  min-height: 90vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+
+  gap: 8px;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(143, 208, 212);
+  background-image: linear-gradient(
+      rgba(143, 208, 212, 0.329),
+      rgba(25, 229, 240, 0.329)
+    ),
+    url('https://img.freepik.com/free-vector/hand-drawn-abstract-shapes-pattern_23-2149090573.jpg?w=740&t=st=1697581213~exp=1697581813~hmac=97c5e826619e619d0cebdbf2304b1b51cfde5685ef817afd0ce2a16202b5f05a');
+
+  border: 1px solid rgb(83, 135, 138);
+  border-radius: 12px;
+  color: rgb(78, 70, 70);
+  position: relative;
+}
+
+.head-title {
+  text-transform: uppercase;
+  margin-right: auto;
+  margin-left: auto;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.icon {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiU3Uk0CmBp7HAoJaC1TWwRNcCZCSbKIDHsg&usqp=CAU');
+  background-size: contain;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.head h1,
+.base h2,
+.bottom h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.base {
+  background-color: rgb(243, 233, 236);
+  text-align: center;
+  border: 1px solid rgb(189, 119, 143);
+  border-radius: 12px;
+  flex-grow: 1;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: rgb(121, 111, 111);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 40px;
+}
+
+.tools {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.base-title {
+  background-color: rgb(155, 110, 207);
+  text-transform: uppercase;
+  margin: 0 auto;
+  padding: 8px 16px;
+  color: rgb(129, 124, 125);
+
+  border-radius: 50px;
+  background: rgb(245, 231, 235);
+  box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
+}
+
+.fix-button {
+  border: 1px solid rgb(189, 119, 143);
+  border-radius: 6px;
+
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 0 auto;
+  width: 150px;
+  padding: 8px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: rgb(2, 54, 54);
+  transition-property: background-color, transform;
+  transition-duration: 800ms;
+  transition-timing-function: ease;
+  transition-delay: 0;
+  border-radius: 10px;
+}
+
+.fix-button-a {
+  color: rgb(153, 145, 145);
+  text-decoration: none;
+}
+
+.fix-button:hover,
+.fix-button:hover .fix-button-a {
+  background-color: rgb(235, 54, 22);
+  transform: scale(1.2);
+
+  color: rgb(83, 15, 15);
+}
+
+.tablica td,
+.tablica th {
+  border: 0px solid rgb(189, 119, 143);
+  padding: 8px;
+  border-top: 0;
+  transition: background-color 200ms ease-in-out, color 200ms ease-in-out;
+}
+.tablica {
+  border-collapse: collapse;
+  width: 750px;
+  align-self: center;
+  box-shadow: 0 2.8px 2.2px rgba(75, 58, 58, 0.507),
+    0 6.7px 5.3px rgba(76, 76, 94, 0.534), 0 12.5px 10px rgba(79, 83, 79, 0.342),
+    0 22.3px 17.9px rgba(151, 103, 151, 0.479);
+  border-top: 0;
+  margin-bottom: 50px;
+  text-transform: capitalize;
+}
+.tablica thead {
+  border-top: 0;
+  background-color: rgba(151, 103, 151, 0.479);
+  color: rgb(255, 255, 255);
+}
+.tablica-body:nth-child(odd) {
+  background-image: linear-gradient(
+    45deg,
+    rgba(243, 201, 201, 0.644),
+    rgba(178, 178, 228, 0.521),
+    rgba(241, 241, 179, 0.568)
+  );
+  color: rgb(73, 63, 63);
+}
+
+.tablica-body > td:hover {
+  background-color: rgb(120, 71, 177);
+  color: rgb(255, 255, 255);
+}
+
+.bottom {
+  padding: 10px;
+  height: 70px;
+  background-color: rgb(241, 188, 119);
+  background-image: linear-gradient(
+    to right,
+    rgb(241, 188, 119),
+    rgb(143, 208, 212),
+    rgb(241, 119, 166)
+  );
+  text-align: center;
+  border: 1px solid rgb(187, 143, 85);
+  border-radius: 12px;
+  flex-basis: 25px;
+  text-transform: uppercase;
+  color: rgb(121, 111, 111);
+}
