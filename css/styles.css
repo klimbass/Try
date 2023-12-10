@@ -12,66 +12,13 @@ a {
   text-decoration: none;
   color: inherit;
 }
-.but-index1 {
-  width: 150px;
-  height: 120px;
-  background-color: blue;
-  border-radius: 5px;
-  color: rgb(222, 207, 236);
-  font-size: 24px;
-  font-weight: 900;
-  text-transform: uppercase;
-}
+
 button:hover {
   background-color: blueviolet;
 }
 
 .ull {
   width: 730px;
-}
-.lii1 {
-  width: 160px;
-  height: 200px;
-  background-color: rgb(212, 246, 248);
-  border-radius: 17% 83% 47% 53% / 81% 41% 59% 19%;
-  text-align: left;
-  line-height: 1.2;
-  color: rgb(124, 120, 120);
-  padding: 5px;
-  padding-top: 10px;
-}
-.lii2 {
-  width: 160px;
-  height: 200px;
-  background-color: rgb(212, 246, 248);
-  border-radius: 41% 59% 21% 79% / 60% 24% 76% 40%;
-  text-align: center;
-  line-height: 1.2;
-  color: rgb(124, 120, 120);
-  padding: 5px;
-  padding-top: 10px;
-}
-.lii3 {
-  width: 160px;
-  height: 200px;
-  background-color: rgb(212, 246, 248);
-  border-radius: 41% 59% 21% 79% / 60% 68% 32% 40%;
-  text-align: right;
-  line-height: 1.2;
-  color: rgb(124, 120, 120);
-  padding: 5px;
-  padding-top: 10px;
-}
-.lii4 {
-  width: 160px;
-  height: 200px;
-  background-color: rgb(238, 185, 185);
-  border-radius: 10px;
-  text-align: justify;
-  line-height: 1.2;
-  color: rgb(124, 120, 120);
-  padding: 5px;
-  padding-top: 10px;
 }
 
 .title-lii {
@@ -87,22 +34,6 @@ button:hover {
   flex-direction: row;
   justify-content: space-around;
   list-style-type: none;
-}
-.section2 {
-  display: flex;
-  justify-content: center;
-  border: 1px solid rgb(204, 201, 201);
-  border-radius: 55% 45% 73% 27% / 47% 37% 63% 53%;
-  background-color: rgba(137, 43, 226, 0.445);
-}
-
-.fugi-li {
-  width: 25px;
-  height: 20px;
-  background-color: #2a2a2a;
-}
-.fugi-li:hover {
-  background-color: aqua;
 }
 
 .body-index2 {
@@ -193,40 +124,6 @@ button:hover {
   border-radius: 50px;
   background: rgb(245, 231, 235);
   box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
-}
-
-.fix-button {
-  border: 1px solid rgb(189, 119, 143);
-  border-radius: 6px;
-
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 20px;
-  margin: 0 auto;
-  width: 150px;
-  padding: 8px;
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  background-color: rgb(2, 54, 54);
-  transition-property: background-color, transform;
-  transition-duration: 800ms;
-  transition-timing-function: ease;
-  transition-delay: 0;
-  border-radius: 10px;
-}
-
-.fix-button-a {
-  color: rgb(153, 145, 145);
-  text-decoration: none;
-}
-
-.fix-button:hover,
-.fix-button:hover .fix-button-a {
-  background-color: rgb(235, 54, 22);
-  transform: scale(1.2);
-
-  color: rgb(83, 15, 15);
 }
 
 .tablica td,
